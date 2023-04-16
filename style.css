@@ -1,0 +1,97 @@
+html{
+
+	background-image: url("images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg");
+	background-size: cover;
+}
+
+.content {
+	margin-left: auto;
+    margin-right: auto;
+	width: 515px;
+	height: 685px;
+	background: #e7e7e7;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.title{
+	text-align: center;
+}
+
+.navbar{
+	text-align: center;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	
+}
+
+.button{
+	color: white;
+	margin-left: auto;
+    margin-right: auto;
+	display:inline;
+	background-color: #00000072;
+	text-decoration: none;
+	padding: 8px 15px 8px 15px;
+	font-size: 15px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	border-color: black;
+}
+.button:hover {
+	background-color: rgb(79, 79, 79);
+	color: white;
+}
+.statuscode{
+	width: 300px;
+	height: 30px;
+	text-align: center;
+}
+
+input[type =text]:focus{
+	border: 3px solid #555;
+}
+
+.textarea{
+	width: 300px;
+	height: 100px;
+	resize: none;
+	text-align: left;
+}
+
+.center{
+	text-align: center;
+}
+
+.bottombar{
+	text-align: center;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.scroll {
+	margin:4px, 4px;
+	padding:4px;
+	background-color: #e7e7e7;
+	width: 500px;
+	height: 474px;
+	overflow:hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align:justify;
+}
+
+.aboutscroll {
+	margin:4px, 4px;
+	padding:4px;
+	background-color: #e7e7e7;
+	width: 500px;
+	height: 550px;
+	overflow:hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align:justify;
+}

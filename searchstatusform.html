@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post Status</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="title">
+        <h1>Status Posting System</h1>
+      </div>
+      <div class="navbar">
+        <a href="index.html" class="button">Home page</a>
+        <a href="poststatusform.php" class="button">Post a new status</a>
+        <a href="searchstatusform.html" class="button">Search status</a>
+        <a href="about.html" class="button">about the assessment</a>
+      </div>
+
+      <form method="GET" action="searchstatusprocess.php">
+        <div class="center">
+          <label><br />Status:<br /></label>
+          <input
+            type="text"
+            name="search"
+            autocomplete="off"
+            placeholder="Search for a status...."
+            class="statuscode"
+            autofocus
+          />
+          <br /><br />
+          <input
+            type="submit"
+            name="submit"
+            value="Show Results"
+            class="button"
+          /><br /><br />
+        </div>
+      </form>
+
+      <div>
+        <div class="bottombar">
+          <a href="index.html"
+            ><input type="submit" value="Return to Home Page" class="button"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
